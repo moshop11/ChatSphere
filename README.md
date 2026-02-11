@@ -1,42 +1,21 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ChatSphere - Full Stack Realtime Chat App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A real-time chat application built using the MERN stack with WebSocket support for instant messaging.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## 🚀 Features
+- Real-time messaging with Socket.io
+- JWT Authentication & Authorization
+- Online user status
+- Profile image upload (Cloudinary)
+- Global state management using Zustand
+- Responsive UI with TailwindCSS & DaisyUI
 
-Highlights:
+## 🛠 Tech Stack
+- Frontend: React, TailwindCSS, Zustand
+- Backend: Node.js, Express, MongoDB
+- Realtime: Socket.io
+- Authentication: JWT
+- Image Storage: Cloudinary
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
 
-### Setup .env file
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
